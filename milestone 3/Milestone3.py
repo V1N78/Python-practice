@@ -1,21 +1,28 @@
-#intro
+#start
+print("___________                        _________                      __  .__    .__                 
+\__    ___/__.__.______   ____    /   _____/ ____   _____   _____/  |_|  |__ |__| ____    ____   
+  |    | <   |  |\____ \_/ __ \   \_____  \ /  _ \ /     \_/ __ \   __\  |  \|  |/    \  / ___\  
+  |    |  \___  ||  |_> >  ___/   /        (  <_> )  Y Y  \  ___/|  | |   Y  \  |   |  \/ /_/  > 
+  |____|  / ____||   __/ \___  > /_______  /\____/|__|_|  /\___  >__| |___|  /__|___|  /\___  /  
+          \/     |__|        \/          \/             \/     \/          \/        \//_____/   ")
 score = 0
 print("Welcome to my general knowledge quiz!")
 print("----------------------------------------")
 print("In this quiz, you have to answer questions.. Goodluck!")
 print("----------------------------------------")
+
 #question 1
-user_answer = input("1. Which is the largest ocean on Earth?")
-A1 = "Pacific ocean"
-A1 = "pacific ocean"
+user_answer = input("1. Which planet has the most moons?")
+A1 = "saturn"
+A1 = "Saturn"
 print("Your answer is: " + user_answer)
 if user_answer == A1:
     print("Correct!")
     print("----------------------------------------")
     score += 1
 else:
-    print("Incorrect! Better luck next time")
-    print("The correct answer was Pacific Ocean")
+    print("Incorrect! Better luck next time!")
+    print("The correct answer was: Saturn")
     print("----------------------------------------")
 
 #question 2
@@ -27,8 +34,8 @@ if user_answer == A1:
     print("----------------------------------------")
     score += 1
 else:
-    print("Incorrect! Better luck next time")
-    print("the correct answer was 206")
+    print("Incorrect! Better luck next time!")
+    print("the correct answer was: 206")
     print("----------------------------------------")
 
 #question 3
@@ -41,8 +48,8 @@ if user_answer == A1:
     print("----------------------------------------")
     score += 1
 else:
-    print("Incorrect! Better luck next time")
-    print("the correct answer was Nitrogen")
+    print("Incorrect! Better luck next time!")
+    print("the correct answer was: Nitrogen")
     print("----------------------------------------")
 
 #question 4
@@ -55,8 +62,8 @@ if user_answer == A1:
     print("----------------------------------------")
     score += 1
 else:
-    print("Incorrect! Better luck next time")
-    print("the correct answer was Alaska")
+    print("Incorrect! Better luck next time!")
+    print("the correct answer was: Alaska")
     print("----------------------------------------")
 
 #question 5
@@ -69,8 +76,8 @@ if user_answer == A1:
     print("----------------------------------------")
     score += 1
 else:
-    print("Incorrect! Better luck next time")
-    print("the correct answer was Canada")
+    print("Incorrect! Better luck next time!")
+    print("the correct answer was: Canada")
     print("----------------------------------------")
 
 #question 6
@@ -83,8 +90,8 @@ if user_answer == A1:
     print("----------------------------------------")
     score += 1
 else:
-    print("Incorrect! Better luck next time")
-    print("the correct answer was France")
+    print("Incorrect! Better luck next time!")
+    print("the correct answer was: France")
     print("----------------------------------------")
 
 #question 7
@@ -97,8 +104,8 @@ if user_answer == A1:
     print("----------------------------------------")
     score += 1
 else:
-    print("Incorrect! Better luck next time")
-    print("the correct answer was Ottawa")
+    print("Incorrect! Better luck next time!")
+    print("the correct answer was: Ottawa")
     print("----------------------------------------")
 
 #question 8
@@ -112,8 +119,8 @@ if user_answer == A1:
     print("----------------------------------------")
     score += 1
 else:
-    print("Incorrect! Better luck next time")
-    print("the correct answer was Antarctic Dessert")
+    print("Incorrect! Better luck next time!")
+    print("the correct answer was: Antarctic Dessert")
     print("----------------------------------------")
 
 #question 9
@@ -126,8 +133,8 @@ if user_answer == A1:
     print("----------------------------------------")
     score += 1
 else:
-    print("Incorrect! Better luck next time")
-    print("the correct answer was Mars")
+    print("Incorrect! Better luck next time!")
+    print("the correct answer was: Mars")
     print("----------------------------------------")
 
 #question 10
@@ -139,10 +146,10 @@ if user_answer == A1:
     print("----------------------------------------")
     score += 1
 else:
-    print("Incorrect! Better luck next time")
-    print("the correct answer was 1945")
+    print("Incorrect! Better luck next time!")
+    print("the correct answer was: 1945")
     print("----------------------------------------")
 
 #ending
 print("Thank you for participating in the quiz!")
-print("Good job, your score was:", score)
+print("Good job, you scored:", score)
