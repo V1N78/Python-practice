@@ -1,10 +1,4 @@
 #start
-print("___________                        _________                      __  .__    .__                 
-\__    ___/__.__.______   ____    /   _____/ ____   _____   _____/  |_|  |__ |__| ____    ____   
-  |    | <   |  |\____ \_/ __ \   \_____  \ /  _ \ /     \_/ __ \   __\  |  \|  |/    \  / ___\  
-  |    |  \___  ||  |_> >  ___/   /        (  <_> )  Y Y  \  ___/|  | |   Y  \  |   |  \/ /_/  > 
-  |____|  / ____||   __/ \___  > /_______  /\____/|__|_|  /\___  >__| |___|  /__|___|  /\___  /  
-          \/     |__|        \/          \/             \/     \/          \/        \//_____/   ")
 score = 0
 print("Welcome to my general knowledge quiz!")
 print("----------------------------------------")
@@ -12,9 +6,8 @@ print("In this quiz, you have to answer questions.. Goodluck!")
 print("----------------------------------------")
 
 #question 1
-user_answer = input("1. Which planet has the most moons?")
+user_answer = input("1. Which planet has the most moons?").lower()
 A1 = "saturn"
-A1 = "Saturn"
 print("Your answer is: " + user_answer)
 if user_answer == A1:
     print("Correct!")
@@ -27,9 +20,9 @@ else:
 
 #question 2
 user_answer = input("2. How many bones are there in the adult human body?")
-A1 = "206"
+A2 = "206"
 print("Your answer is: " + user_answer)
-if user_answer == A1:
+if user_answer == A2:
     print("Correct!")
     print("----------------------------------------")
     score += 1
@@ -39,11 +32,10 @@ else:
     print("----------------------------------------")
 
 #question 3
-user_answer = input("3. Which gas is most abundant in the Earth’s atmosphere?")
-A1 = "Nitrogen"
-A1 = "nitrogen"
+user_answer = input("3. Which gas is most abundant in the Earth’s atmosphere?").lower()
+A3 = "Nitrogen"
 print("Your answer is: " + user_answer)
-if user_answer == A1:
+if user_answer == A3:
     print("Correct!")
     print("----------------------------------------")
     score += 1
@@ -53,11 +45,10 @@ else:
     print("----------------------------------------")
 
 #question 4
-user_answer = input("4. Which U.S. state is farthest west?")
-A1 = "Alaska"
-A1 = "alaska"
+user_answer = input("4. Which U.S. state is farthest west?").lower()
+A4 = "Alaska"
 print("Your answer is: " + user_answer)
-if user_answer == A1:
+if user_answer == A4:
     print("Correct! Alaska crosses the 180° meridian")
     print("----------------------------------------")
     score += 1
@@ -67,11 +58,10 @@ else:
     print("----------------------------------------")
 
 #question 5
-user_answer = input("5. Which country has the most natural lakes?")
-A1 = "Canada"
-A1 = "canada"
+user_answer = input("5. Which country has the most natural lakes?").lower()
+A5 = "Canada"
 print("Your answer is: " + user_answer)
-if user_answer == A1:
+if user_answer == A5:
     print("Correct!")
     print("----------------------------------------")
     score += 1
@@ -81,11 +71,10 @@ else:
     print("----------------------------------------")
 
 #question 6
-user_answer = input("6. Which country has the most time zones?")
-A1 = "France"
-A1 = "france"
+user_answer = input("6. Which country has the most time zones?").lower()
+A6 = "France"
 print("Your answer is: " + user_answer)
-if user_answer == A1:
+if user_answer == A6:
     print("Correct! It is due to overseas territories.")
     print("----------------------------------------")
     score += 1
@@ -95,11 +84,10 @@ else:
     print("----------------------------------------")
 
 #question 7
-user_answer = input("7. What is the capital city of Canada?")
-A1 = "ottawa"
-A1 = "Ottawa"
+user_answer = input("7. What is the capital city of Canada?").lower()
+A7 = "Ottawa"
 print("Your answer is: " + user_answer)
-if user_answer == A1:
+if user_answer == A7:
     print("Correct!")
     print("----------------------------------------")
     score += 1
@@ -109,12 +97,10 @@ else:
     print("----------------------------------------")
 
 #question 8
-user_answer = input("8. Which is the largest desert in the world?")
-A1 = "Antarctic Desert"
-A1 = "antarctic desert"
-A1 = "Antarctic desert"
+user_answer = input("8. Which is the largest desert in the world?").lower()
+A8 = "Antarctic desert"
 print("Your answer is: " + user_answer)
-if user_answer == A1:
+if user_answer == A8:
     print("Correct!")
     print("----------------------------------------")
     score += 1
@@ -124,11 +110,10 @@ else:
     print("----------------------------------------")
 
 #question 9
-user_answer = input("9. What planet is known as the Red Planet?")
-A1 = "Mars"
-A1 = "mars"
+user_answer = input("9. What planet is known as the Red Planet?").lower()
+A9 = "Mars"
 print("Your answer is: " + user_answer)
-if user_answer == A1:
+if user_answer == A9:
     print("Correct!")
     print("----------------------------------------")
     score += 1
@@ -139,9 +124,9 @@ else:
 
 #question 10
 user_answer = input("10. In which year did World War II end?")
-A1 = "1945"
+A10 = "1945"
 print("Your answer is: " + user_answer)
-if user_answer == A1:
+if user_answer == A10:
     print("Correct!")
     print("----------------------------------------")
     score += 1
@@ -152,4 +137,4 @@ else:
 
 #ending
 print("Thank you for participating in the quiz!")
-print("Good job, you scored:", score)
+print("Good job, you scored:", score, "out of 10!")
